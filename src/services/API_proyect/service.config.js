@@ -10,7 +10,7 @@ const APIHeaders = {
 };
 
 export const API = axios.create({
-  baseURL: 'https://backend-dev-link-sepia.vercel.app/',
+  baseURL: 'https://backend-dev-link-sepia.vercel.app/api/v1',
   // baseURL: `http://localhost:8080/api/v1`,
   headers: APIHeaders,
   timeout: 60000,
